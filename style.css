@@ -13,6 +13,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 160px;
+    margin-top: 93px;
 }
 
 .img-logo {
@@ -39,12 +41,12 @@ header {
     margin-top: 120px;
 }
 
-
-
-
 .flex h1 {
     font: 500 60px 'DM Sans';
     color: #181717;
+    margin-bottom: 83px;
+    margin-left: 160px;
+
 }
 
 .flex p {
@@ -52,6 +54,39 @@ header {
     font: 400 32px 'DM Sans';
 }
 
- 2 ч, 35 мин, 28 с
+.img {
+    background-image: url(./↓.svg);
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 40px;
+    margin-bottom: 83px;
+    margin-left: 160px;
+}
 
+.projects {
+    display: flex;
+    flex-direction: row;
+}
 
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font: 400 22px 'DM Sans';
+    color: #181717;
+    height: 100%;
+}
+
+.link {
+    font-family: 500 22px 'DM Sans';
+    color: #181717;
+}
+
+.picture {
+    background-image: url(./Thumbnail.svg);
+    background-repeat: no-repeat;
+    width: 640px;
+    height: 365px;
+}
