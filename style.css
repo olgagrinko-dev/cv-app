@@ -7,18 +7,19 @@
 
 body {
     background: #E5E5E5;
+    width: 1200px;
+    margin: auto;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 160px;
-    margin-top: 93px;
+    margin-top: 63px;
 }
 
 .img-logo {
-    background-image: url(./hs..svg);
+    background-image: url(./img/hs..svg);
     background-repeat: no-repeat;
     width: 64px;
     height: 50px;
@@ -39,14 +40,12 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .flex h1 {
     font: 500 60px 'DM Sans';
     color: #181717;
-    margin-bottom: 83px;
-    margin-left: 160px;
-
 }
 
 .flex p {
@@ -55,12 +54,11 @@ header {
 }
 
 .img {
-    background-image: url(./↓.svg);
+    background-image: url(./img/↓.svg);
     background-repeat: no-repeat;
-    width: 34px;
-    height: 40px;
-    margin-bottom: 83px;
-    margin-left: 160px;
+    width: 33px;
+    height: 39px;
+    margin-bottom: 128px;
 }
 
 .projects {
@@ -68,15 +66,27 @@ header {
     flex-direction: row;
 }
 
-.information {
+.first {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
-.text {
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.info-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
     font: 400 22px 'DM Sans';
-    color: #181717;
-    height: 100%;
+    color: #606060;
+
+
 }
 
 .link {
@@ -84,9 +94,15 @@ header {
     color: #181717;
 }
 
-.picture {
-    background-image: url(./Thumbnail.svg);
+.img-projects {
+    background-image: url(./img/Thumbnail.svg);
     background-repeat: no-repeat;
     width: 640px;
     height: 365px;
+    margin-left: 190px;
+}
+
+.line {
+    border: 1.5px solid #181717;
+    margin-top: 114px;
 }
