@@ -63,30 +63,31 @@ header {
 
 .projects {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .first {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 .info-main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 140px;
     font: 400 22px 'DM Sans';
     color: #606060;
+}
 
-
+.info-main div {
+    margin-bottom: 15px;
 }
 
 .link {
@@ -95,14 +96,46 @@ header {
 }
 
 .img-projects {
-    background-image: url(./img/Thumbnail.svg);
-    background-repeat: no-repeat;
+    background-color: #606060;
     width: 640px;
     height: 365px;
-    margin-left: 190px;
 }
 
 .line {
-    border: 1.5px solid #181717;
-    margin-top: 114px;
+    border: 1px solid #181717;
+    margin: 108px 0;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.thirt {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font: 500 22px 'DM Sans';
+    margin-top: 128px;
+}
+
+.link-2 {
+    color: #2429AF;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #181717;
+}
+
+.item-footer {
+    margin-right: 31px;
 }
