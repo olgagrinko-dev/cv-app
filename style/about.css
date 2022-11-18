@@ -15,6 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 95px;
 }
 
 .img-logo {
@@ -43,6 +44,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    margin-top: 149px;
 }
 
 .info-about {
@@ -52,6 +54,7 @@ header {
 .info-about h1 {
     font: 500 60px 'DM Sans';
     color: #181717;
+
 }
 
 .info-about p {
@@ -63,7 +66,31 @@ header {
 .img-about {
     background-color: #606060;
     height: 457px;
-    width: 405px;    
+    width: 405px;
+}
+
+.about-block-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 68px;
+}
+
+.about-skills-header {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    text-decoration-line: underline;
+    flex: 0 0 200px;
+}
+
+.about-skills-more-info {
+    font: 400 20px 'DM Sans';
+    color: #181717;
+    flex: 1 0 200px;
 }
 
 .line {
@@ -79,23 +106,9 @@ header {
     color: #181717;
 }
 
-
-.about-skills {
-    display: flex;
+.email {
+    flex: 1 1 200px
 }
-
-.about-skills-header {
-    font: 500 22px 'DM Sans';
-    text-decoration-line: underline;
-    color: #181717;
-}
-
-.about-skills-more-info {
-    font: 400 20px 'DM Sans';
-    color: #181717;
-}
-
-
 
 .footer {
     display: flex;
