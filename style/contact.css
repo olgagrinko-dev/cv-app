@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-family: 'DM Sans'
+}
+
+body {
+    background: #E5E5E5;
+    width: 1200px;
+    margin: auto;
+}
+
+a {
+color: #000;
+text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 98%;
+    left: 0;
+    top: 0;
+    background-color: #E5E5E5;
+}
+
+.img-logo {
+    background-image: url(../img/hs..svg);
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 50px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav p {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+}
+
+.header-nav p:hover {
+    text-decoration: underline;
+}
+
+.header-nav p:not(:last-child) {
+    margin-right: 29px;
+}
+
+.contacts {
+    margin-top: 90px;
+}
+
+.contacts h1 {
+    margin-bottom: 20px;
+    font: 500 60px 'DM Sans';
+    color: #181717;
+
+}
+
+.block-contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.contacts-input,
+.contacts-info {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts-input input {
+    width: 660px;
+    padding: 15px 0 15px 10px;
+}
+
+.button {
+    background: #302f2f;
+    border-radius: 5px;
+    Width: 170px;
+    font: 700 18px 'DM Sans';
+    color: #FFFFFF;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.button:hover {
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font: 500 22px 'DM Sans';
+    margin-top: 128px;
+}
+
+.name {
+    color: #2429AF;
+}
+
+.item-footer {
+    margin-right: 31px;
+}
