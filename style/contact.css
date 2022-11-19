@@ -12,10 +12,9 @@ body {
 }
 
 a {
-color: #000;
-text-decoration: none;
+    color: #000;
+    text-decoration: none;
 }
-
 
 header {
     display: flex;
@@ -61,7 +60,6 @@ header {
     margin-bottom: 20px;
     font: 500 60px 'DM Sans';
     color: #181717;
-
 }
 
 .block-contacts {
@@ -97,26 +95,6 @@ header {
     background-color: #000;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
     display: flex;
     justify-content: space-between;
@@ -126,6 +104,13 @@ header {
 
 .name {
     color: #2429AF;
+}
+
+.contacts-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #181717;
 }
 
 .item-footer {

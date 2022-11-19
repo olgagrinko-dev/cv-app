@@ -11,6 +11,11 @@ body {
     margin: auto;
 }
 
+a {
+    color: #000;
+    text-decoration: none;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -35,6 +40,14 @@ header {
     color: #181717;
 }
 
+.header-nav p:hover {
+    text-decoration: underline;
+}
+
+.header-nav p:not(:last-child) {
+    margin-right: 29px;
+}
+
 .about {
     display: flex;
 }
@@ -54,7 +67,6 @@ header {
 .info-about h1 {
     font: 500 60px 'DM Sans';
     color: #181717;
-
 }
 
 .info-about p {
