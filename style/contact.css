@@ -68,9 +68,15 @@ header {
     margin-top: 30px;
 }
 
-.contacts-input,
+.contacts-input {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .contacts-info {
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -115,4 +121,40 @@ header {
 
 .item-footer {
     margin-right: 31px;
+}
+
+@media screen and (max-width: 500px) {
+    .block-contacts {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    body {
+        width: 500px;
+    }
+
+    .contacts h1 {
+        font: 500 40px 'DM Sans';
+    }
+
+    .contacts-input input {
+        width: 250px;
+        padding: 15px 0 15px 10px;
+    }
+
+    .button {
+        font: 500 15px 'DM Sans';
+        padding: 5px 0;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .contacts-input {
+        height: 200px;
+        margin: auto;
+    }
+
+    .contacts-info {
+        height: 150px;
+    }
 }
