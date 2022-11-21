@@ -140,7 +140,7 @@ header {
     display: flex;
     justify-content: space-between;
     font: 500 22px 'DM Sans';
-    margin-top: 128px;
+    margin-top: 100px;
 }
 
 .name {
@@ -157,3 +157,16 @@ header {
 .item-footer {
     margin-right: 31px;
 }
+
+@media screen and (max-width: 500px) {
+    
+    .first, .second, .thirt {
+    flex-direction: column;
+    margin: auto;
+}
+
+body {
+    width: 500px;
+}
+}
+
