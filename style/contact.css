@@ -124,7 +124,7 @@ header {
 }
 
 @media screen and (max-width: 500px) {
-    
+
     .block-contacts {
         flex-direction: column;
         margin: auto;
@@ -157,5 +157,12 @@ header {
 
     .contacts-info {
         height: 150px;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin: auto;
+        font: 500 15px 'DM Sans';
+        margin-top: 25px;
     }
 }
